@@ -14,10 +14,11 @@
     z-index: -1;
 }
 
-.name {
+.home-name {
     margin-top: 3rem;
     margin-bottom: 3rem;
     align-self: center;
+    font-family: 'Aliens';
 }
 
 .blog-body{
@@ -34,5 +35,10 @@
 
 .exp-image{
     width: 30vw;
+    height: auto;
+}
+
+#word-cloud{
+    width: 80vw;
     height: auto;
 }

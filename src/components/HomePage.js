@@ -21,7 +21,7 @@ function HomePage() {
         <img alt="header" className="header-image" src={headerImage}/>
         
         <div className='name'>
-            <Typography sx={{color: "white", fontSize: "4rem"}} variant="h5" component="div">
+            <Typography sx={{color: "white", fontSize: "5rem", fontFamily:"Aliens"}} variant="h5" component="div">
                 Sergio André López Pereo
             </Typography>
         </div>
@@ -92,9 +92,11 @@ function HomePage() {
                 <p className="about-me-text">
                     Otro de ellos se realizo junto con Centro ITAM para Datos + Algoritmos + Sociedad para el proyecto periodismo silenciado. 
                     Aquí se realizaron múltiples desarrollos. El más destacable es un sistema, al igual que el anterior, ETL que nos permite obtener una capa 
-                    de abstracción sobre datos crudos. Esta capa esta hecha utilizando herramientas como Spark, AWS y Dash. Este sistema nos permite conectar mejor 
-                    con los datos y hacer análisis exploratorios sin necesidad de preocuparnos por aspectos tan técnicos. Es un sistema todavía en desarrollo y se
-                    espera seguirlo trabajando el siguiente semestre para poder tener un marco de desarrollo para diversos proyectos en el centro.
+                    de abstracción sobre con conjunto de datos en particular. Esta capa esta hecha utilizando herramientas como Spark, AWS y Dash. 
+                    Esta capa de abstracción nos permite interactuar y hacer análisis exploratorios sencillos sin necesidad de preocuparse
+                    por los aspectos más técnicos del sistema. Esto le permite a personas no tan familizarizas con la programación 
+                    conectar de una mejor manera con estos datos. Es un sistema todavía en desarrollo y se espera seguirlo trabajando el siguiente semestre para
+                    poder tener un marco de desarrollo para diversos proyectos en el centro.
                 </p>
             </div>
             <div class="about-me-image-container">
