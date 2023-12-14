@@ -1,7 +1,12 @@
 import * as React from 'react';
-import headerImage from "../images/home_image4.jpg"
+import headerImage from "../images/home_image4.jpeg";
 import Typography from '@mui/material/Typography';
-import "../styles/BlogPage.css"
+import raw1 from "../images/raw1.jpg";
+import raw2 from "../images/raw2.jpg";
+import output1 from "../images/output1.jpeg";
+import output2 from "../images/output2.jpeg";
+
+import "../styles/BlogPage.css";
 
 
 function BlogPage() {
@@ -16,24 +21,32 @@ function BlogPage() {
       </div>
       <div className="blog-body">
 
-        <div class="about-me-txts">
+        <div class="blog-container">
             <p className="about-me-text">
-                Esta entrada de blog explica el c
+                Esta automatización se hizo porque en uno de los proyectos den Centro de Datos nos encontramos con la siguiente problemática.
+                Se debía rescatar la mayor cantidad de información de un conjunto de imágenes. Para hacer esto, en primera instancia, se
+                hizo un análisis usando AWS Rekognition. Sin embargo, Rekognition solo podía extraer como "tags" que la imagen contenía texto.
+                Para solventar esto y ayudarle a la plataforma a extraer los textos de las imágenes se decidió hacer un preprocesamiento de las mismas.
+                Y para hacerlo se utilizo el algoritmo EAST (Efficient and Accurate Scene Text Detector).
             </p>
             <p className="about-me-text">
-                Entre mis proyectos más recientes esta el diseño e implementación de un sistema de extracción, análisis y visualización.
-                Este sistema es un ETL financiero que nos permite sacar análisis exploratorios generales sobre la economía de un mercado virtual.
-                Nos permite ver gráficas sobre el PIB, CIP y funciones de demandas
-                de productos sobre la economía. Usa múltiples bases de datos para poder hacer una mejor representación de los datos y facilitar dichos
-                análisis.
+                Para hacerlo se utilizo una re-implementación hecha por <a href='https://github.com/argman/EAST'>argman</a> en tensorflow.
+                Se tuvo que modificar esta implementación para trabajar hacer un workflow distinto con las imagenes. Simplemente se creo un
+                nuevo archivo llamado "east_from_folder" que se puede encontrar en mi <a href='https://github.com/SergioPereo/east-test/'>repositorio</a>.
+                Se creo una nueva carpeta llamada "images" en la cuál se tenían que poner las imagenes y el script se encargaba de procesar dichas images
+                usando la interfaz que nos proporcionó argman. LaS imagenes que se muestran abajo son imagenes que se introdujeron en dicha carpeta.
             </p>
+            <div className="image-container">
+              <img className="exp-image" src={raw1}/>
+              <img className="exp-image" src={raw2}/>
+            </div>
             <p className="about-me-text">
-                Otro de ellos se realizo junto con Centro ITAM para Datos + Algoritmos + Sociedad para el proyecto periodismo silenciado. 
-                Aquí se realizaron múltiples desarrollos. El más destacable es un sistema, al igual que el anterior, ETL que nos permite obtener una capa 
-                de abstracción sobre datos crudos. Esta capa esta hecha utilizando herramientas como Spark, AWS y Dash. Este sistema nos permite conectar mejor 
-                con los datos y hacer análisis exploratorios sin necesidad de preocuparnos por aspectos tan técnicos. Es un sistema todavía en desarrollo y se
-                espera seguirlo trabajando el siguiente semestre para poder tener un marco de desarrollo para diversos proyectos en el centro.
+                Dichas imagenes las proceso el algoritmo y hizo la correcta detección de cada una de ellas como se puede ver en las siguientes imagenes.
             </p>
+            <div className="image-container">
+              <img className="exp-image" src={output1}/>
+              <img className="exp-image" src={output2}/>
+            </div>
           </div>
       </div>
     </div>

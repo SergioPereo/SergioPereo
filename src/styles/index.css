@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'Aliens';
+    src: local('Aliens'), url(../fonts/aliens_and_cows/aliens.ttf) format('truetype');
+}

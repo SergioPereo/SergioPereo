@@ -5,6 +5,7 @@ import * as ReactDOM from "react-dom/client";
 import ResponsiveAppBar from './components/ResponsiveAppBar';
 import CVPage from './components/CVPage';
 import BlogPage from './components/BlogPage';
+import "./styles/index.css";
 
 import {
   createBrowserRouter,
@@ -31,7 +32,9 @@ const router = createBrowserRouter([
     path: "/Blog",
     element: <><ResponsiveAppBar/><BlogPage/></>
   }
-]);
+],{
+  basename: "/SergioPereo/"
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

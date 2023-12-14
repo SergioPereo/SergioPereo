@@ -1,6 +1,7 @@
 .blog-page{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .blog-header-image {
@@ -19,8 +20,19 @@
     align-self: center;
 }
 
-.about-me-txts{
+.blog-body{
+    width: 70%;
+    align-self: center;
 }
 
-.about-me-text{
+.image-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.exp-image{
+    width: 30vw;
+    height: auto;
 }

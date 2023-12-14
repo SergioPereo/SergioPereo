@@ -17,7 +17,7 @@ import { useNavigate } from 'react-router';
 import perfil from "../icons/perfil.jpg"
 
 
-const pages = ['CV', 'Blog'];
+const pages = ['Blog'];
 const settings = [/* 'Profile', 'Account', 'Dashboard', 'Logout' */];
 
 const texts_color = "white"

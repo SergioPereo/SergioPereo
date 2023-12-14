@@ -14,7 +14,8 @@
 
 .about-me-title{
     text-align: left;
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: 'Aliens';
 }
 
 .about-me {
@@ -23,7 +24,7 @@
     justify-content: space-between;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-top: 0;
+    margin-top: -5rem;
     margin-bottom: 2rem;
 }
 
