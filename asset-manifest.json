@@ -1,12 +1,17 @@
 {
   "files": {
-    "main.css": "/SergioPereo/static/css/main.fa40a9a3.css",
-    "main.js": "/SergioPereo/static/js/main.a99705f8.js",
+    "main.css": "/SergioPereo/static/css/main.50bdce64.css",
+    "main.js": "/SergioPereo/static/js/main.e97e9625.js",
     "static/js/787.83118c65.chunk.js": "/SergioPereo/static/js/787.83118c65.chunk.js",
-    "static/media/home_image4.jpg": "/SergioPereo/static/media/home_image4.0c25aa22ac170c1428ae.jpg",
     "static/media/pdf.worker.min.js": "/SergioPereo/static/media/pdf.worker.min.5379dcbf6865d24e5398.js",
     "static/media/home_image3.jpg": "/SergioPereo/static/media/home_image3.f211936db7eb934a7543.jpg",
+    "static/media/output2.jpeg": "/SergioPereo/static/media/output2.570a9f2137d41f1f4e77.jpeg",
+    "static/media/raw2.jpg": "/SergioPereo/static/media/raw2.e04423a9e9b4a5f755ef.jpg",
+    "static/media/aliens.ttf": "/SergioPereo/static/media/aliens.89adb7d3ed2f93d13ddf.ttf",
+    "static/media/output1.jpeg": "/SergioPereo/static/media/output1.3bef4d8b2e5ce771e4df.jpeg",
     "static/media/aboutme.jpeg": "/SergioPereo/static/media/aboutme.2d09a352b154f663e0f3.jpeg",
+    "static/media/home_image4.jpeg": "/SergioPereo/static/media/home_image4.8571e7a06722c6cb88dc.jpeg",
+    "static/media/raw1.jpg": "/SergioPereo/static/media/raw1.4729d4b138348baa1797.jpg",
     "static/media/perfil.jpg": "/SergioPereo/static/media/perfil.44a1e1890b26b55930cb.jpg",
     "static/media/roboto-latin-300-normal.woff2": "/SergioPereo/static/media/roboto-latin-300-normal.c48fb6765a9fcb00b330.woff2",
     "static/media/roboto-cyrillic-ext-300-normal.woff2": "/SergioPereo/static/media/roboto-cyrillic-ext-300-normal.4777461b144e55145268.woff2",
@@ -23,12 +28,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/SergioPereo/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-300-normal.woff": "/SergioPereo/static/media/roboto-greek-ext-300-normal.392a45a84c081c4b412d.woff",
     "index.html": "/SergioPereo/index.html",
-    "main.fa40a9a3.css.map": "/SergioPereo/static/css/main.fa40a9a3.css.map",
-    "main.a99705f8.js.map": "/SergioPereo/static/js/main.a99705f8.js.map",
+    "main.50bdce64.css.map": "/SergioPereo/static/css/main.50bdce64.css.map",
+    "main.e97e9625.js.map": "/SergioPereo/static/js/main.e97e9625.js.map",
     "787.83118c65.chunk.js.map": "/SergioPereo/static/js/787.83118c65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa40a9a3.css",
-    "static/js/main.a99705f8.js"
+    "static/css/main.50bdce64.css",
+    "static/js/main.e97e9625.js"
   ]
 }
