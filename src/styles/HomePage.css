@@ -1,0 +1,122 @@
+.header-image {
+    width: 100%;
+    object-fit: none;
+    height: 16rem;
+    left: 0;
+    top: 0;
+    position:absolute;
+    z-index: -1;
+}
+
+.about-me-text{
+    text-align: justify;
+}
+
+.about-me-title{
+    text-align: left;
+    font-size: 3rem;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.about-me-txts {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#about-me-p-first{
+    margin-top: 1rem;
+}
+
+
+.about-me-image{
+    width: 400px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 7px 5px 5px rgb(162, 156, 156);
+}
+
+.about-me-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-name{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.biography {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-paper{
+    width: 30%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.icon-skill {
+    margin-bottom: 20px;
+}
+
+.etl-skill {
+    margin-bottom: 57px;
+}
+
+.dist-skill {
+    margin-bottom: 37px;
+}
+
+@media (max-width: 1000px) {
+    .biography {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-paper{
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-image {
+        width: 100%;
+        object-fit: none;
+        height: 18rem;
+        left: 0;
+        top: 0;
+        position:absolute;
+        z-index: -1;
+    }
+}
+  

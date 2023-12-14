@@ -1,0 +1,26 @@
+.blog-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-header-image {
+    width: 100%;
+    object-fit: none;
+    height: 16rem;
+    left: 0;
+    top: 0;
+    position:absolute;
+    z-index: -1;
+}
+
+.name {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-self: center;
+}
+
+.about-me-txts{
+}
+
+.about-me-text{
+}

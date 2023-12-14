@@ -1,0 +1,47 @@
+.cv-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-self: center;
+}
+
+.cv-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.work-experience-list{
+    align-self: center;
+}
+
+.cv-item{
+    width: 800px;
+    font-size: 20px;
+    color: rgb(62, 90, 168);
+}
+
+.section-title{
+    width: 800px;
+    align-self: center;
+    text-align: center;
+}
+
+.title{
+    color:rgb(62, 90, 168);
+}
+
+.header-image {
+    width: 100%;
+    object-fit: none;
+    height: 16rem;
+    left: 0;
+    top: 0;
+    position:absolute;
+    z-index: -1;
+}
