@@ -2,7 +2,7 @@
 
 ### Data science student 📕
 
-### Geek to the bones 👾
+### Geek👾
 
 ### Brandon Sanderson fan 📚
 
