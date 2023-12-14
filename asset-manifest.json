@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SergioPereo/static/css/main.50bdce64.css",
-    "main.js": "/SergioPereo/static/js/main.e97e9625.js",
+    "main.css": "/SergioPereo/static/css/main.59af5d10.css",
+    "main.js": "/SergioPereo/static/js/main.cf0c0eb9.js",
     "static/js/787.83118c65.chunk.js": "/SergioPereo/static/js/787.83118c65.chunk.js",
     "static/media/pdf.worker.min.js": "/SergioPereo/static/media/pdf.worker.min.5379dcbf6865d24e5398.js",
     "static/media/home_image3.jpg": "/SergioPereo/static/media/home_image3.f211936db7eb934a7543.jpg",
@@ -9,6 +9,7 @@
     "static/media/raw2.jpg": "/SergioPereo/static/media/raw2.e04423a9e9b4a5f755ef.jpg",
     "static/media/aliens.ttf": "/SergioPereo/static/media/aliens.89adb7d3ed2f93d13ddf.ttf",
     "static/media/output1.jpeg": "/SergioPereo/static/media/output1.3bef4d8b2e5ce771e4df.jpeg",
+    "static/media/final_word_cloud.jpeg": "/SergioPereo/static/media/final_word_cloud.a449a33c13dc8978b01a.jpeg",
     "static/media/aboutme.jpeg": "/SergioPereo/static/media/aboutme.2d09a352b154f663e0f3.jpeg",
     "static/media/home_image4.jpeg": "/SergioPereo/static/media/home_image4.8571e7a06722c6cb88dc.jpeg",
     "static/media/raw1.jpg": "/SergioPereo/static/media/raw1.4729d4b138348baa1797.jpg",
@@ -19,6 +20,7 @@
     "static/media/roboto-cyrillic-ext-300-normal.woff": "/SergioPereo/static/media/roboto-cyrillic-ext-300-normal.3503ec5cc6330e21f695.woff",
     "static/media/roboto-latin-ext-300-normal.woff2": "/SergioPereo/static/media/roboto-latin-ext-300-normal.dc7dcec8e3f654e0ed63.woff2",
     "static/media/roboto-latin-ext-300-normal.woff": "/SergioPereo/static/media/roboto-latin-ext-300-normal.182712ab85f1472cdb2f.woff",
+    "static/media/tesseract_output.png": "/SergioPereo/static/media/tesseract_output.4bf4361a6d6124bdfbe0.png",
     "static/media/roboto-cyrillic-300-normal.woff2": "/SergioPereo/static/media/roboto-cyrillic-300-normal.1431d1cef06ad04f5458.woff2",
     "static/media/roboto-cyrillic-300-normal.woff": "/SergioPereo/static/media/roboto-cyrillic-300-normal.5b5f2f31962967dfc22c.woff",
     "static/media/roboto-greek-300-normal.woff2": "/SergioPereo/static/media/roboto-greek-300-normal.db2632771401f61463fe.woff2",
@@ -28,12 +30,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/SergioPereo/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-300-normal.woff": "/SergioPereo/static/media/roboto-greek-ext-300-normal.392a45a84c081c4b412d.woff",
     "index.html": "/SergioPereo/index.html",
-    "main.50bdce64.css.map": "/SergioPereo/static/css/main.50bdce64.css.map",
-    "main.e97e9625.js.map": "/SergioPereo/static/js/main.e97e9625.js.map",
+    "main.59af5d10.css.map": "/SergioPereo/static/css/main.59af5d10.css.map",
+    "main.cf0c0eb9.js.map": "/SergioPereo/static/js/main.cf0c0eb9.js.map",
     "787.83118c65.chunk.js.map": "/SergioPereo/static/js/787.83118c65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50bdce64.css",
-    "static/js/main.e97e9625.js"
+    "static/css/main.59af5d10.css",
+    "static/js/main.cf0c0eb9.js"
   ]
 }
